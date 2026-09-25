@@ -1,0 +1,24 @@
+# 输出 / 缓存
+runs/
+output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 权重与推理产物（体积大，不入库）
+*.pt
+*.pth
+*.npz
+*.glb
+*.ckpt
+*.safetensors
+
+# 输入图片 / 视频（个人素材）
+input_images_*/
+picture/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
